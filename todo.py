@@ -5,3 +5,6 @@ def add(task):
 
 def list_tasks():
     return tasks
+
+def delete_task(index):
+    del tasks[index]
