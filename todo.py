@@ -1,10 +1,10 @@
-tasks = []
+tasks = ["1"]
 
 def add(task):
     tasks.append(task)
 
 def list_tasks():
-    return tasks
+    print(tasks)
 
 
 def delete_task(index):
