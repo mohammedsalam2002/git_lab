@@ -9,3 +9,7 @@ def list_tasks():
 
 def delete_task(index):
     del tasks[index]
+
+
+def exit():
+    quit()
